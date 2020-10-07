@@ -1,0 +1,19 @@
+syntax: glob
+.DS_Store
+*.pyc
+*.orig
+*.db
+*htmlcov*
+.coverage
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.pem
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
